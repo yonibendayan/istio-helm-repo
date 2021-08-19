@@ -1,0 +1,63 @@
+apiVersion: v1
+entries:
+  base:
+  - apiVersion: v1
+    created: "2021-08-19T09:41:22.337318+03:00"
+    description: Helm chart for deploying Istio cluster resources and CRDs
+    digest: 22adc1f66ffe2ea0f3141cc8a25422643ab2e4e4f00548ad906bb2ca4e7c53cd
+    icon: https://istio.io/latest/favicons/android-192x192.png
+    keywords:
+    - istio
+    name: base
+    sources:
+    - http://github.com/istio/istio
+    urls:
+    - https://github.com/yonibendayan/istio-helm-repo/helm-chart-sources/base-1.9.5.tgz
+    version: 1.9.5
+  istio-cni:
+  - apiVersion: v1
+    created: "2021-08-19T09:41:22.338428+03:00"
+    description: Helm chart for istio-cni components
+    digest: b2348fe59752c5eab5340bbec644462ff2badae7f447a786fb6894550e3313b2
+    icon: https://istio.io/latest/favicons/android-192x192.png
+    keywords:
+    - istio-cni
+    - istio
+    name: istio-cni
+    sources:
+    - http://github.com/istio/cni
+    urls:
+    - https://github.com/yonibendayan/istio-helm-repo/helm-chart-sources/istio-cni-1.9.5.tgz
+    version: 1.9.5
+  istio-discovery:
+  - apiVersion: v1
+    created: "2021-08-19T09:41:22.34125+03:00"
+    description: Helm chart for istio control plane
+    digest: b1284a9640977c05b36efb006c0bb49381e7e195f7a53cf205c13750d6fed06a
+    icon: https://istio.io/latest/favicons/android-192x192.png
+    keywords:
+    - istio
+    - istiod
+    - istio-discovery
+    name: istio-discovery
+    sources:
+    - http://github.com/istio/istio
+    urls:
+    - https://github.com/yonibendayan/istio-helm-repo/helm-chart-sources/istio-discovery-1.9.5.tgz
+    version: 1.9.5
+  istio-operator:
+  - apiVersion: v1
+    created: "2021-08-19T09:41:22.342988+03:00"
+    description: Helm chart for deploying Istio operator
+    digest: 155cb93c074d0ae410e5fd54b7f15f9da45094f6880e15ff2078c555239c8463
+    icon: https://istio.io/latest/favicons/android-192x192.png
+    keywords:
+    - istio
+    - operator
+    name: istio-operator
+    sources:
+    - https://github.com/istio/istio/tree/master/operator
+    urls:
+    - https://github.com/yonibendayan/istio-helm-repo/helm-chart-sources/istio-operator-1.9.5.tgz
+    version: 1.9.5
+generated: "2021-08-19T09:41:22.334771+03:00"
